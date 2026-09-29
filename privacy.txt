@@ -1,0 +1,39 @@
+Privacy Policy: Free-Trial Trap Alarm
+Last updated: September 29, 2026
+
+Free-Trial Trap Alarm is a browser extension that detects free-trial offers on web pages and reminds you before a trial ends. This policy explains what the extension does with your information. The short version: it collects nothing and sends nothing anywhere.
+
+What the extension reads
+To spot trial offers, the extension reads the visible text of the pages you visit (for example, wording like "30-day free trial"). This reading happens entirely inside your browser. The page text is never stored, copied, or transmitted.
+
+What the extension stores
+When you choose to track a trial, the extension saves the following on your own device, using the browser's built-in extension storage:
+
+the website name and address of the trial,
+the trial length and the start and end dates,
+whether you marked the trial as cancelled or snoozed it,
+your settings (reminder timing and the list of sites you asked it to skip).
+This data stays on your device. It is not sent to the developer or to any third party.
+
+What the extension does not do
+It does not collect personal information, browsing history, or payment details.
+It does not read, store, or transmit card numbers or form contents.
+It does not use analytics, tracking, or advertising.
+It does not sell or share data, because it has no data to share.
+It makes no network requests to any server.
+Why the extension needs access to all websites
+A free trial can be offered on any website, so the extension must be able to read pages on every site to notice the wording. It skips email, chat, and document apps by default, and you can add any site to a skip list in Settings.
+
+Permissions
+storage: saves your trials and settings on your device.
+alarms: schedules reminders.
+notifications: shows the reminder.
+Access to all sites: reads page text to detect trial offers, as explained above.
+Deleting your data
+You can delete any tracked trial from the extension popup. Removing the extension from your browser deletes all of its stored data.
+
+Changes to this policy
+If this policy changes, the updated version will be posted at this address with a new date.
+
+Contact
+Questions about this policy: arefinsultanul64@gmail.com
