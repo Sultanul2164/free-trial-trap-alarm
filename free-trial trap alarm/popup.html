@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icon48.png" alt="" width="24" height="24">
+    <h1>Free-Trial Trap Alarm</h1>
+  </header>
+  <nav>
+    <button id="tabTrials" class="tab active">Trials</button>
+    <button id="tabSettings" class="tab">Settings</button>
+  </nav>
+
+  <section id="viewTrials">
+    <div id="list"></div>
+    <details id="doneWrap" hidden>
+      <summary id="doneSummary"></summary>
+      <div id="doneList"></div>
+    </details>
+    <div class="add">
+      <input id="name" placeholder="Add manually: service name">
+      <input id="days" type="number" min="1" max="365" value="7" title="Trial length in days">
+      <button id="addBtn" class="primary">Add</button>
+    </div>
+  </section>
+
+  <section id="viewSettings" hidden>
+    <label class="field">
+      <span>Detect trials automatically</span>
+      <input type="checkbox" id="enabled">
+    </label>
+    <label class="field">
+      <span>Remind me before the end</span>
+      <select id="lead">
+        <option value="1">1 day</option>
+        <option value="2">2 days</option>
+        <option value="3">3 days</option>
+        <option value="5">5 days</option>
+        <option value="7">7 days</option>
+      </select>
+    </label>
+    <h2>Skipped sites</h2>
+    <p class="hint">The extension won't look at these sites. Email, chat and document apps are always skipped.</p>
+    <div id="excludedList"></div>
+    <div class="add">
+      <input id="exInput" placeholder="example.com">
+      <button id="exAdd" class="primary">Skip</button>
+    </div>
+    <p class="hint privacy">🔒 Everything stays in this browser. Nothing is sent anywhere.</p>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>

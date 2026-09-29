@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Free-Trial Trap Alarm",
+  "version": "0.2.0",
+  "description": "Never get charged for a forgotten free trial. Detects trials and reminds you before they end.",
+  "permissions": ["storage", "alarms", "notifications"],
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Free-Trial Trap Alarm",
+    "default_icon": { "16": "icon16.png", "48": "icon48.png" }
+  },
+  "content_scripts": [
+    { "matches": ["<all_urls>"], "js": ["content.js"], "run_at": "document_idle", "all_frames": true }
+  ]
+}
